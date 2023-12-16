@@ -6,7 +6,7 @@ permalink: /estimator/
 
 # State Estimator Design
 
-The state estimation algorithm used for this problem was the particle filter. This was chosen to deal with the multi-modal nature of the probability distributions in our problem, as the sensors do not uniquely pin down our state. By having a cloud of particles, we are more likely to estimate the correct pose in the box. 
+The state estimation algorithm used for this problem was the particle filter [1]. This was chosen to deal with the multi-modal nature of the probability distributions in our problem, as the sensors do not uniquely pin down our state. By having a cloud of particles, we are more likely to estimate the correct pose in the box. 
 
 The prediction step involved simple vehicle dynamics, where simple first order dynamics are used to propagate linear and angular velocity inputs. In other words, we get that x_t = x_t-1 + v\*dt, where dt is the time step used. 
 
