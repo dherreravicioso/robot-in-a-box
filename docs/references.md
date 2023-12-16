@@ -2,6 +2,7 @@
 layout: page
 title: References
 permalink: /references/
+order: 5
 ---
 
 # References

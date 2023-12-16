@@ -2,6 +2,7 @@
 layout: page
 title: Estimator
 permalink: /estimator/
+order: 1
 ---
 
 # State Estimator Design

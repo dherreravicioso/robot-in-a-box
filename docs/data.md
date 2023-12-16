@@ -2,6 +2,7 @@
 layout: page
 title: Data & Results
 permalink: /data-and-results/
+order: 2
 ---
 
 The below video shows the estimator in action on the robot. 
